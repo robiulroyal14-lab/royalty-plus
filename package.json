@@ -1,0 +1,11 @@
+{
+  "name": "royalty-plus",
+  "version": "1.0.0",
+  "description": "Royalty Plus Full-Stack Website",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "setup:admin": "node scripts/setupAdmin.js"
+  }
+}
